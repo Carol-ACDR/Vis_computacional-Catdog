@@ -2,7 +2,6 @@
 
 Este projeto compara redes convolucionais treinadas com diferentes representações de imagem para classificar gatos e cachorros. O notebook faz parte da unidade curricular de Visão Computacional da Pós-Graduação em Inteligência Artificial Aplicada.
 
-Autores: Ana Carolina Dutra Ramos, Camila Gois de Jesus e Guilherme Magalhães Júnior.
 
 ## Notebook
 
@@ -54,13 +53,6 @@ jupyter notebook "Visão_Computacional_Desafio_Semana_1.ipynb"
 
 O download do dataset exige internet. Uma GPU compatível com TensorFlow é recomendada.
 
-## Limitações
-
-- O bloco que cria `x_list` e `y_list` está desativado, mas células exploratórias posteriores ainda usam essas variáveis. Em uma sessão limpa, essas células precisam ser ignoradas ou reativadas.
-- O particionamento com `take` e `skip` não realiza um embaralhamento explícito antes da divisão.
-- O mesmo subconjunto é chamado de validação e teste; não existe um teste final independente.
-- As etapas de cinco e dez épocas não começam com pesos novos, prejudicando uma comparação estritamente controlada.
-- Para uma avaliação mais completa, recomenda-se incluir precision, recall, F1 e matriz de confusão.
 
 ## Tecnologias
 
